@@ -1,0 +1,1 @@
+docker run -p 1201:1201 -p 1200:1200 --link mysqldb:mysqldb --link redis:redis --link mongodb:mongodb -v C:\Users\hyecheon\IdeaProjects\go_systems:/app go_systems

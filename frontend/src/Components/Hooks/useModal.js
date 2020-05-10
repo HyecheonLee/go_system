@@ -1,0 +1,14 @@
+import {useState} from 'react';
+
+export const useModal = () => {
+  const [modalShowing, setModalShowing] = useState(false);
+  const [modalDisplay, setModalDisplay] = useState('login');
+
+  return {
+    modalShowing,
+    setModalShowing,
+    modalDisplay,
+    setModalDisplay
+  };
+};
+
